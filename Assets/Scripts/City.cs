@@ -8,7 +8,7 @@ public class City : MonoBehaviour
     {
         if (collision.GetComponent<CarbonDO>())
         {
-            Co2Level.co2L = Co2Level.co2L + 1.6f;
+            Co2Level.co2L = Co2Level.co2L + 1.5f;
         }
     }
 }
